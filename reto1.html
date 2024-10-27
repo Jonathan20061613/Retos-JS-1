@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 1 - Java Script</title>
+    <link rel="stylesheet" href="reto1.css">
+</head>
+
+<body>
+    <section class="container">
+        <h2>🧠 RETO DE LÓGICA DE PROGRAMACIÓN - SEMANA 1</h2>
+        <br>
+        <h2>🔢 Reto 1: Generador de Números Primos</h2>
+        <br>
+        <h3>📄 Descripción:</h3>
+        <br>
+        <p>
+            Tu misión esta semana es escribir una función en JavaScript que identifique y devuelva todos los números
+            primos menores que un número entero dado n.
+        </p>
+        <br>
+        <p>
+            Un número primo es un número natural mayor que 1, que solo puede dividirse exactamente por 1 y por sí mismo.
+            Algunos ejemplos de números primos son: 2, 3, 5, 7, 11...
+        </p>
+        <br>
+        <h3>🚀 Instrucciones:</h3>
+        <br>
+        <ol>
+            <li>La función debe recibir un número entero positivo <strong>n</strong> como argumento.</li>
+            <li>La función debe devolver un <strong>array </strong> con todos los números primos menores que
+                <strong>n</strong>.
+            </li>
+            <li>Compartir link del repositorio con el reto resuelto por este canal de texto.</li>
+        </ol>
+        <br>
+        <h3>💡 Tips:</h3>
+        <br>
+        <ul>
+            <li>Los números primos no tienen divisores excepto 1 y ellos mismos. Piensa en cómo podrías verificar esta
+                condición para cada número hasta <strong>n</strong>.</li>
+            <li>Considera cómo optimizar tu función para que sea eficiente incluso para valores grandes de
+                <strong>n</strong>.
+            </li>
+        </ul>
+
+        <br>
+        <h1>Generador de Números Primos</h1>
+        <br>
+        <label for="numberInput">Ingresa un número entero positivo <strong>n</strong>:</label>
+        <br><br>
+        <input type="number" id="numberInput" min="2">
+        <button id="generateButton">Generar Números Primos</button>
+        <br><br>
+        <h2>Números Primos Menores que <strong>n</strong>:</h2>
+        <ul id="primeList"></ul>
+
+    </section>
+    <script src="reto1.js"></script>
+</body>
+
+</html>
